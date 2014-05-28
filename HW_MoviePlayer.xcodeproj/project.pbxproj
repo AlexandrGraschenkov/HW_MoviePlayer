@@ -21,9 +21,9 @@
 		A80ABD26191E2A2900F81B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80ABD08191E2A2900F81B0A /* UIKit.framework */; };
 		A80ABD2E191E2A2900F81B0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A80ABD2C191E2A2900F81B0A /* InfoPlist.strings */; };
 		A80ABD30191E2A2900F81B0A /* HW_MoviePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80ABD2F191E2A2900F81B0A /* HW_MoviePlayerTests.m */; };
-		A80ABD3C191E2B6C00F81B0A /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A80ABD3B191E2B6C00F81B0A /* video.mp4 */; };
 		A80ABD3F191E336700F81B0A /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A80ABD3D191E336700F81B0A /* pause@2x.png */; };
 		A80ABD40191E336700F81B0A /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A80ABD3E191E336700F81B0A /* play@2x.png */; };
+		F50E119E19332E3A00316345 /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F50E119D193328C200316345 /* movie.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +56,9 @@
 		A80ABD2B191E2A2900F81B0A /* HW_MoviePlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW_MoviePlayerTests-Info.plist"; sourceTree = "<group>"; };
 		A80ABD2D191E2A2900F81B0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A80ABD2F191E2A2900F81B0A /* HW_MoviePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW_MoviePlayerTests.m; sourceTree = "<group>"; };
-		A80ABD3B191E2B6C00F81B0A /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		A80ABD3D191E336700F81B0A /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
 		A80ABD3E191E336700F81B0A /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		F50E119D193328C200316345 /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +134,7 @@
 			children = (
 				A80ABD3D191E336700F81B0A /* pause@2x.png */,
 				A80ABD3E191E336700F81B0A /* play@2x.png */,
-				A80ABD3B191E2B6C00F81B0A /* video.mp4 */,
+				F50E119D193328C200316345 /* movie.mp4 */,
 				A80ABD0C191E2A2900F81B0A /* HW_MoviePlayer-Info.plist */,
 				A80ABD0D191E2A2900F81B0A /* InfoPlist.strings */,
 				A80ABD10191E2A2900F81B0A /* main.m */,
@@ -239,10 +239,10 @@
 			files = (
 				A80ABD1D191E2A2900F81B0A /* Images.xcassets in Resources */,
 				A80ABD0F191E2A2900F81B0A /* InfoPlist.strings in Resources */,
+				F50E119E19332E3A00316345 /* movie.mp4 in Resources */,
 				A80ABD40191E336700F81B0A /* play@2x.png in Resources */,
 				A80ABD3F191E336700F81B0A /* pause@2x.png in Resources */,
 				A80ABD18191E2A2900F81B0A /* Main.storyboard in Resources */,
-				A80ABD3C191E2B6C00F81B0A /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +468,7 @@
 				A80ABD35191E2A2900F81B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80ABD36191E2A2900F81B0A /* Build configuration list for PBXNativeTarget "HW_MoviePlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +477,7 @@
 				A80ABD38191E2A2900F81B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

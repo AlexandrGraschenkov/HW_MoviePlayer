@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>439C43DF-4402-400F-902F-83845D6AFC70</string>
+	<string>8FDB6D46-1063-4303-A72F-5E22384F8826</string>
 	<key>IDESourceControlProjectName</key>
 	<string>HW_MoviePlayer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B29FFDA8-DADD-40FB-B74D-A1CA316C16AF</key>
-		<string>https://github.com/Sk0rpion/HW_MoviePlayer.git</string>
+		<key>0AD7FB28-8F8E-4E79-A420-0FA3F6981F6D</key>
+		<string>https://github.com/av0kado/HW_MoviePlayer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>HW_MoviePlayer.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B29FFDA8-DADD-40FB-B74D-A1CA316C16AF</key>
+		<key>0AD7FB28-8F8E-4E79-A420-0FA3F6981F6D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Sk0rpion/HW_MoviePlayer.git</string>
+	<string>https://github.com/av0kado/HW_MoviePlayer.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B29FFDA8-DADD-40FB-B74D-A1CA316C16AF</string>
+	<string>0AD7FB28-8F8E-4E79-A420-0FA3F6981F6D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B29FFDA8-DADD-40FB-B74D-A1CA316C16AF</string>
+			<string>0AD7FB28-8F8E-4E79-A420-0FA3F6981F6D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>HW_MoviePlayer</string>
 		</dict>
