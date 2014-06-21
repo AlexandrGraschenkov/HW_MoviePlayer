@@ -391,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HW_MoviePlayer/HW_MoviePlayer-Prefix.pch";
 				INFOPLIST_FILE = "HW_MoviePlayer/HW_MoviePlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,6 +405,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HW_MoviePlayer/HW_MoviePlayer-Prefix.pch";
 				INFOPLIST_FILE = "HW_MoviePlayer/HW_MoviePlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -468,6 +470,7 @@
 				A80ABD35191E2A2900F81B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80ABD36191E2A2900F81B0A /* Build configuration list for PBXNativeTarget "HW_MoviePlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +479,7 @@
 				A80ABD38191E2A2900F81B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
