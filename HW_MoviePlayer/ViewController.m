@@ -29,9 +29,39 @@
     moviePlayer.controlStyle = MPMovieControlStyleNone;
     moviePlayer.view.frame = self.view.bounds;
     moviePlayer.view.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+    [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
+    
     [moviePlayer play];
+    [slider setValue:0];
+    [playPauseButton setImage:[UIImage imageNamed:@"pause"] forState:UIControlStateNormal];
     [self.view addSubview:moviePlayer.view];
     [self.view sendSubviewToBack:moviePlayer.view];
+}
+-(IBAction)playOrPause:(id)sender{
+    if([moviePlayer playbackState]==MPMoviePlaybackStatePaused){
+        [moviePlayer play];
+        [playPauseButton setImage:[UIImage imageNamed:@"pause"] forState:UIControlStateNormal];
+    }else{
+        [moviePlayer pause];
+        [playPauseButton setImage:[UIImage imageNamed:@"play"] forState:UIControlStateNormal];
+    }
+}
+-(IBAction)goTo:(id)sender{
+    [moviePlayer setCurrentPlaybackTime:[slider value] * [moviePlayer duration]];
+}
+-(void)updateTime{
+    int time;
+    time = self.moviePlayer.currentPlaybackTime;
+    currentTimeLabel.text = [NSString stringWithFormat:@"%d:%d", time/60, time%60];
+    if(time%60 < 10) {
+        currentTimeLabel.text = [NSString stringWithFormat:@"%d:0%d", time/60, time%60];
+    }
+    int totalTime=[moviePlayer duration]-time;
+    totalTimeLabel.text = [NSString stringWithFormat:@"%d:%d", totalTime/60, totalTime%60];
+    if(totalTime%60 < 10) {
+        totalTimeLabel.text = [NSString stringWithFormat:@"%d:0%d", totalTime/60, totalTime%60];
+    }
+    [slider setValue:(time / [moviePlayer duration])];
 }
 
 @end
